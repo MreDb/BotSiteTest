@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Call Game</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div id="app">
+        <nav>
+            <a href="#casino">Казино</a>
+            <a href="#referral">Рефералы</a>
+            <a href="#earn">Заработок</a>
+            <a href="#news">Новости</a>
+            <a href="#wallet">Кошелек</a>
+        </nav>
+        <section id="casino">
+            <!-- Казино логика -->
+        </section>
+        <section id="referral">
+            <!-- Реферальная программа -->
+        </section>
+        <section id="earn">
+            <!-- Начисление монет -->
+        </section>
+        <section id="news">
+            <!-- Новостная лента -->
+        </section>
+        <section id="wallet">
+            <!-- Пополнение баланса -->
+        </section>
+    </div>
+    <script src="{{ url_for('static', filename='app.js') }}"></script>
+</body>
+</html>

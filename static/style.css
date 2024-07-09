@@ -1,0 +1,32 @@
+body {
+    background-color: blue;
+    color: black;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    background-color: white;
+}
+
+nav a {
+    padding: 10px;
+    color: black;
+    text-decoration: none;
+}
+
+#app {
+    padding-bottom: 50px; /* Чтобы не перекрывало навигацию */
+}
+
+button {
+    background-color: red;
+    color: black;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
